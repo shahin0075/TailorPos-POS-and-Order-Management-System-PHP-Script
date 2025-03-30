@@ -1,0 +1,1 @@
+# TailorPos-POS-and-Order-Management-System-PHP-Script
