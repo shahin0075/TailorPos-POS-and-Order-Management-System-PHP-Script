@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Tailor POS - Documentation</title>
+</head>
+
+<body class=" overflow-x-clip">
+    <div class="h-screen w-screen flex flex-col">
+        <div class="p-5 flex justify-between border-b">
+            <img src="../assets/logo.png" alt="" class="w-36">
+        </div>
+        <div class="flex w-full h-full">
+            <div class="w-[20rem] h-[calc(100vh-74.93px)] border-r overflow-y-scroll shrink-0 flex flex-col  p-6 ">
+                <a href="../index.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Tailor POS</a>
+                <div class="tracking-wider text-xs text-neutral-500 font-semibold mt-8" >GETTING STARTED</div>
+                <a href="./getting-started-installation.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded mt-4">Installation</a>
+                <a href="./getting-started-ssl.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">SSL</a>
+                <div class="tracking-wider text-xs text-neutral-500 font-semibold mt-8" >BASIC SETUP</div>
+                <a href="./basic-setup-1.html" class="bg-slate-100 p-1.5 rounded font-semibold text-blue-600 mt-4">1. Basic Setup</a>
+                <a href="./basic-setup-2-master-setting.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">2. Master Settings</a>
+                <a href="./basic-setup-3-branch.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">3. Branch</a>
+                <div class="tracking-wider text-xs text-neutral-500 font-semibold mt-8" >USAGE</div>
+                <a href="./usage-products-materials.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded mt-4">Products & Materials</a>
+                <a href="./usage-suppliers.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Suppliers</a>
+                <a href="./usage-purchase.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Purchase</a>
+                <a href="./usage-stock.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Managing Stock</a>
+                <a href="./usage-measurements.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Measurements</a>
+                <a href="./usage-expense.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Expense</a>
+                <a href="./usage-customers.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Customers</a>
+                <a href="./usage-sales-sales-return.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Sales & Sales Return</a>
+                <a href="./usage-customer-ledger.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Customer Ledger</a>
+                <a href="./usage-receipts.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Receipts</a>
+                <a href="./usage-staff.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Staff</a>
+                <a href="./usage-reports.html" class="p-1.5 text-neutral-600 font-light text-md hover:bg-neutral-200 rounded">Reports</a>
+            </div>
+            <div class="w-full flex flex-col items-center p-8 text-slate-500 h-[calc(100svh-74.93px)] overflow-y-scroll">
+                <div class="w-[60%] flex flex-col gap-3">
+                    <div class="text-4xl font-bold text-slate-700">1. Basic Setup</div>
+                    <div class="bg-red-400 text-white p-4 rounded-md ">
+                        <em>You must follow and complete the instructions provided in this page before using the application.</em>
+                    </div>
+                    <div class="bg-blue-500 text-white p-4 rounded-md flex flex-col">
+                        <span>The default login information for the admin account is:</span>
+                        <em>Email : <b>admin@admin.com</b></em>
+                        <em>Password : <b>admin@admin.com</b></em>
+                    </div>
+                    <div class="font-bold mt-8 text-2xl text-slate-700">1. Setting up financial year.</div>
+                    <img src="../assets/financial-year.webp" alt="" class="mt-5">
+                    <div class="text-center text-xs text-neutral-400">Financial Year</div>
+                    <ol class="list-decimal mx-3 pl-3" >
+                        <li class="">In the sidebar choose <b>financial year settings</b> under <b>administration settings</b>.</li>
+                        <li class="mt-2">Click on <b>Add A New Financial Year</b> and create a new financial year by filling the provided information. </li>
+                        <li class="mt-2">In the sidebar choose <b>master settings</b> under <b>administration settings</b>.</li>
+                        <li class="mt-2">In the <b>financial year</b> dropdown select your newly created financial year.</li>
+                    </ol>
+                    <div class="font-bold mt-8 text-2xl text-slate-700">2. Setting up invoice.</div>
+                    <img src="../assets/invoice-settings.webp" alt="" class="mt-5">
+                    <div class="text-center text-xs text-neutral-400">Invoice Settings</div>
+                    <ol class="list-decimal mx-3 pl-3" >
+                        <li class="">In the sidebar choose invoice settings under administration settings.</li>
+                        <li class="mt-2">In the Invoice Prefix input type in your required prefix for your invoices.The invoice prefix must end with '-' and only one '-' must be present.</li>
+                        <li class="mt-2">The Invoice Index is used as the starting invoice number.This number will be used on the very first invoice you create, after creating the invoice this number is ignored.</li>
+                    </ol>
+                    <div class="font-bold mt-8 text-2xl text-slate-700">3. Mail Settings.</div>
+                    <img src="../assets/mail-settings.webp" alt="" class="mt-5">
+                    <div class="">You need to configure the mail settings to enable password recovery during login.</div>
+                    <div class="flex gap-3">
+                        <a href="getting-started-ssl.html" class="w-full flex justify-between border p-5 rounded-md my-8 items-center group hover:-translate-y-2 transition-all duration-200 ">
+                            <div class="group-hover:text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col text-end">
+                                <div class="text-neutral-400 text-sm">Getting Started - Previous</div>
+                                <div class="text-neutral-600 group-hover:text-blue-600">SSL</div>
+                            </div>
+                        </a>
+                        <a href="basic-setup-2-master-setting.html" class="w-full flex justify-between border p-5 rounded-md my-8 items-center group hover:-translate-y-2 transition-all duration-200 ">
+                            <div class="flex flex-col">
+                                <div class="text-neutral-400 text-sm">Next - Basic Setup</div>
+                                <div class="text-neutral-600 group-hover:text-blue-600">Master Settings</div>
+                            </div>
+                            <div class="group-hover:text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                  </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
